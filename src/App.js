@@ -4,12 +4,12 @@ import "./App.css";
 const projects = [
   {
     name: "Batch to Stream Processing (PySpark)",
-    shortDesc: "Converts batch data to real-time streaming on Databricks cluster using Unity Catalog, Data Lake, performed data transformation on medalian Architecture",
+    shortDesc: "Converted batch data into real-time streaming using a Databricks cluster with Unity Catalog and Data Lake. Implemented data transformations following the Medallion Architecture (Bronze, Silver, Gold) to ensure clean, reliable, and analytics-ready datasets",
     github: "https://github.com/MisaHojjat/batch-processing-to-stream-processing--pyspark-.git"
   },
   {
     name: "MLOps Bank Marketing Model Pipeline",
-    shortDesc: "End-to-end ML pipeline with monitoring and deployment.",
+    shortDesc: "End-to-end ML pipeline with monitoring and deployment. Used Python (OOP), BigQuery, CI/CD, Airflow, and Vertex AI to build, deploy, and monitor a bank marketing prediction model.",
     github: "https://github.com/MisaHojjat/MLOps-Bank-Marketing-Model-Pipeline.git"
   },
   {
@@ -19,7 +19,8 @@ const projects = [
   },
   {
     name: "F1 Azure Databricks Pipeline Ergast API",
-    shortDesc: "Data pipeline using Azure Databricks to fetch F1 race data.",
+    shortDesc: "Data pipeline using Azure Databricks to fetch F1 race data. Used PySpark for ETL, structured data with Delta Lake, orchestrated with Azure Data Factory\
+    and visualized insights with PowerBI.",
     github: "https://github.com/MisaHojjat/F1-Azure-Databricks-Pipeline-Ergast-API.git"
   },
 ];
@@ -36,7 +37,7 @@ function App() {
         <h2>About Me</h2>
         <p>
           Experienced Data Engineer with 8+ years in building end-to-end ETL pipelines,
-          data modeling, data analysis, data visualization and recently focused more on best practices in MLOps workflows. Passionate about creating scalable data solutions.
+          data modeling, data management, data governance, data analysis, optimization and automation. Recently focused more on best practices in MLOps workflows. Passionate about creating scalable data solutions.
         </p>
       </section>
 
