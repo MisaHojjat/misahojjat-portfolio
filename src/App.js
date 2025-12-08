@@ -29,7 +29,7 @@ function App() {
     <div className="App">
       <header>
         <h1>Misa Hojjat</h1>
-        <p>Data Engineer | MLOps | ETL | ML</p>
+        <p>Data Engineer | Data Analysis | MLOps | Data Modeling | ETL</p>
       </header>
 
       <section className="about">
