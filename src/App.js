@@ -10,7 +10,8 @@ const projects = [
   {
     name: "MLOps Bank Marketing Model Pipeline",
     shortDesc: "End-to-end ML pipeline with monitoring and deployment. Used Python (OOP), BigQuery, CI/CD, Airflow, and Vertex AI to build, deploy, and monitor a bank marketing prediction model.",
-    github: "https://github.com/MisaHojjat/MLOps-Bank-Marketing-Model-Pipeline.git"
+    github: "https://github.com/MisaHojjat/MLOps-Bank-Marketing-Model-Pipeline.git",
+    medium : "https://medium.com/@misa.hojjat/building-end-to-end-mlops-for-bank-marketing-using-ci-cd-system-b6dba9ed0f14"
   },
   {
     name: "PowerBI Retail Sales Analysis",
