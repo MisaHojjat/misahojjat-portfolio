@@ -52,12 +52,12 @@ function App() {
             <div className="project-links">
                   {p.github && (
                       <a href={p.github} target="_blank" rel="noopener noreferrer">
-                        GitHub Repo
-                      </a>
+                        GitHub Repo  
+                      </a> 
               )}
                   {p.medium && (
                       <a href={p.medium} target="_blank" rel="noopener noreferrer">
-                          | Project Deep Dive          
+                           | Project Deep Dive          
                       </a>
                   )}
             </div>
@@ -74,7 +74,7 @@ function App() {
         <p>
           Email: misa.hojjat@gmail.com | 
           <a href="https://github.com/MisaHojjat" target="_blank" rel="noopener noreferrer"> GitHub</a> | 
-          <a href="https://www.linkedin.com/in/misahojjat" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/misahojjat" target="_blank" rel="noopener noreferrer"> LinkedIn</a> |
           <a href="https://medium.com/@misa.hojjat" target="_blank" rel="noopener noreferrer"> Medium</a>
         </p>
       </footer>
