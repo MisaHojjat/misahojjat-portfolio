@@ -57,7 +57,7 @@ function App() {
               )}
                   {p.medium && (
                       <a href={p.medium} target="_blank" rel="noopener noreferrer">
-                          Medium Full Project Overview
+                          | Project Deep Dive          
                       </a>
                   )}
             </div>
@@ -75,6 +75,7 @@ function App() {
           Email: misa.hojjat@gmail.com | 
           <a href="https://github.com/MisaHojjat" target="_blank" rel="noopener noreferrer"> GitHub</a> | 
           <a href="https://www.linkedin.com/in/misahojjat" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
+          <a href="https://medium.com/@misa.hojjat" target="_blank" rel="noopener noreferrer"> Medium</a>
         </p>
       </footer>
     </div>
