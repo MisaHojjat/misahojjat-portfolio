@@ -48,9 +48,21 @@ function App() {
           <div key={idx} className="project-card">
             <h3>{p.name}</h3>
             <p>{p.shortDesc}</p>
-            <a href={p.github} target="_blank" rel="noopener noreferrer">See Full Project</a>
+
+            <div className="project-links">
+                  {p.github && (
+                      <a href={p.github} target="_blank" rel="noopener noreferrer">
+                        GitHub Repo
+                      </a>
+              )}
+                  {p.medium && (
+                      <a href={p.medium} target="_blank" rel="noopener noreferrer">
+                          Medium Full Project Overview
+                      </a>
+                  )}
+            </div>
           </div>
-        ))}
+    ))}
       </section>
 
       <section className="skills">
@@ -60,7 +72,7 @@ function App() {
 
       <footer>
         <p>
-          Email: misa@example.com | 
+          Email: misa.hojjat@gmail.com | 
           <a href="https://github.com/MisaHojjat" target="_blank" rel="noopener noreferrer"> GitHub</a> | 
           <a href="https://www.linkedin.com/in/misahojjat" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
         </p>
