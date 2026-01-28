@@ -37,7 +37,7 @@ function App() {
       <section className="about">
         <h2>About Me</h2>
         <p>
-          Experienced Data Engineer with 8+ years in building end-to-end ETL pipelines,
+          Experienced Data Engineer with 6+ years in building end-to-end ETL pipelines,
           data modeling, data management, data governance, data analysis, optimization and automation. Recently focused more on best practices in MLOps workflows. Passionate about creating scalable data solutions.
         </p>
       </section>
